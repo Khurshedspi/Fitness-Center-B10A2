@@ -1,0 +1,176 @@
+/* for small devices */
+
+@media screen and (max-width: 576px) {
+    .navbar-section {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        padding: 3.2rem 1.5rem;
+
+    }
+
+    .hambars-icon {
+        display: block;
+    }
+
+    .navbar-content {
+        display: none;
+    }
+
+    /* navbar section ends here */
+
+    .banner-main-container {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        margin-top: 6rem;
+    }
+
+    .btn-primary {
+        width: 142px;
+        height: 42px;
+        border: none;
+        border-radius: 40px;
+        background: rgb(230, 83, 60);
+        font-size: 1rem;
+        font-weight: 600;
+        color: rgb(255, 255, 255);
+
+    }
+
+    .btn-secondary {
+        width: 142px;
+        height: 42px;
+        border-radius: 40px;
+        border: 1px solid whitesmoke;
+        background-color: black;
+        font-size: 1rem;
+        font-weight: 600;
+        color: rgb(255, 255, 255);
+
+    }
+
+    .btn-div {
+        width: 100%;
+        margin: 1rem auto;
+    }
+
+    .banner-img {
+
+        width: 100%;
+        position: relative;
+
+    }
+
+    .free-workout-videos {
+        width: 6.25rem;
+        height: 4rem;
+        border: 2px solid rgba(255, 255, 255, 0.1);
+        border-radius: 10px;
+        backdrop-filter: blur(20px);
+        background: rgba(255, 255, 255, 0.1);
+        padding: 5px;
+        position: absolute;
+        top: 63rem;
+        right: 2.2rem;
+    }
+
+    .free-workout-videos h1 {
+        font-size: 1rem;
+        font-weight: 700;
+        color: white;
+    }
+
+    .free-workout-videos p {
+        font-size: 0.8rem;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.65);
+    }
+
+    .tutorial-videos {
+        max-width: 192px;
+        max-height: 97px;
+        border: 2px solid rgba(255, 255, 255, 0.1);
+        border-radius: 10px;
+        backdrop-filter: blur(20px);
+        background: rgba(255, 255, 255, 0.1);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 4px;
+        gap: 0.5rem;
+        position: absolute;
+        top: 72rem;
+        right: 9rem;
+    }
+
+    .tutorial-videos h1 {
+        font-size: 1.2rem;
+        font-weight: 800;
+        color: white;
+    }
+
+    .tutorial-videos p {
+        font-size: 0.8rem;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.65);
+    }
+
+    /* banner ends here  */
+}
+
+
+
+
+/* responsive for medium devices */
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+
+    /* banner section starts here  */
+    .banner-main-container {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        margin-top: 6rem;
+    }
+
+    .banner-img {
+
+        width: 100%;
+        position: relative;
+
+    }
+
+    .free-workout-videos {
+        max-width: 192px;
+        max-height: 97px;
+        border: 2px solid rgba(255, 255, 255, 0.1);
+        border-radius: 10px;
+        backdrop-filter: blur(20px);
+        background: rgba(255, 255, 255, 0.1);
+        padding: 5px;
+        position: absolute;
+        top: 58rem;
+        right: 8.2rem;
+    }
+
+    .tutorial-videos {
+        max-width: 192px;
+        max-height: 97px;
+        border: 2px solid rgba(255, 255, 255, 0.1);
+        border-radius: 10px;
+        backdrop-filter: blur(20px);
+        background: rgba(255, 255, 255, 0.1);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 4px;
+        gap: 0.5rem;
+        position: absolute;
+        top: 85rem;
+        right: 28rem;
+    }
+
+    /* banner section ends here */
+
+}
