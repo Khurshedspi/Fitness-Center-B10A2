@@ -47,6 +47,8 @@
 
 }
 
+
+
 /* navbar container section styles starts  here */
 
 header {
@@ -56,8 +58,8 @@ header {
 .navbar-section {
     display: flex;
     justify-content: space-between;
-    text-align: center;
-    padding: 3rem;
+    align-items: center;
+    padding: 6rem;
 }
 
 .fitness-heading {
@@ -97,12 +99,13 @@ header {
 
 /* navbar container section styles ends  here */
 
+/* banner section starts here */
+
 .banner-main-container {
     display: flex;
     justify-content: space-between;
     text-align: center;
-    padding: 3rem;
-    margin-top: 6rem;
+    padding: 6rem;
 }
 
 .banner-left-content {
@@ -139,7 +142,6 @@ header {
 }
 
 .banner-img {
-    /* max-width: 349; */
     width: 100%;
     position: relative;
 
@@ -154,8 +156,8 @@ header {
     background: rgba(255, 255, 255, 0.1);
     padding: 5px;
     position: absolute;
-    top: 27.19rem;
-    right: 2.2rem;
+    top: 30rem;
+    right: 5.2rem;
 }
 
 .free-workout-videos h1 {
@@ -203,4 +205,74 @@ header {
     max-width: 2.8rem;
     font-size: 2rem;
     color: tomato;
+}
+
+
+/* banner section ends here */
+
+
+
+/* change-your-habits-container styles stars  here */
+
+.change-your-habits-container{
+background: black;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.change-habit-heading{
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.change-habit-description{
+    max-width: 60rem;
+    margin: 0.9rem auto;
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+.change-habit-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 4rem;
+    margin-top: 3.5rem;
+}
+
+.card-images{
+    border: 8px solid rgba(182, 187, 182, 0.249);
+    border-radius: 50%;
+    width: 50%;
+}
+.habit-card-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.change-habit-card{
+    width: 14.5rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.change-habit-card h4{
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 1.2rem;
+}
+.change-habit-card p{
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0.5rem;
 }

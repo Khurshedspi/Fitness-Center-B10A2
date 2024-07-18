@@ -117,6 +117,15 @@
     }
 
     /* banner ends here  */
+
+    /* change your habit section responsive starts here */
+    .change-habit-cards{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 1rem;
+    }
+
+    /* change your habit section responsive ends here  */
 }
 
 
@@ -172,5 +181,14 @@
     }
 
     /* banner section ends here */
+
+
+    /* change your habit responsive section starts here  */
+    .change-habit-cards{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 1rem;
+    }
+    /* change your habit responsive section ends here  */
 
 }
