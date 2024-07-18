@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* background-color: black; */
 }
 
 
@@ -15,6 +16,7 @@
     font-style: normal;
     font-variation-settings:
         "slnt" 0;
+    background: black;
 }
 
 .miama {
@@ -51,9 +53,6 @@
 
 /* navbar container section styles starts  here */
 
-header {
-    background: black;
-}
 
 .navbar-section {
     display: flex;
@@ -72,7 +71,6 @@ header {
 .navbar-content {
     border: 2px solid rgba(255, 255, 255, 0.1);
     border-radius: 39px;
-    /* padding: 10px; */
 }
 
 .nav-item {
@@ -212,23 +210,24 @@ header {
 
 
 
-/* change-your-habits-container styles stars  here */
+/* change-your-habits-container styles starts  here */
 
-.change-your-habits-container{
-background: black;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+.change-your-habits-container {
+    /* background: black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.change-habit-heading{
+.change-habit-heading {
     font-size: 3rem;
     font-weight: 900;
     text-align: center;
     color: rgb(255, 255, 255);
 }
-.change-habit-description{
+
+.change-habit-description {
     max-width: 60rem;
     margin: 0.9rem auto;
     font-size: 0.9rem;
@@ -238,41 +237,105 @@ align-items: center;
 }
 
 
-.change-habit-cards{
+.change-habit-cards {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 4rem;
     margin-top: 3.5rem;
 }
 
-.card-images{
+.card-images {
     border: 8px solid rgba(182, 187, 182, 0.249);
     border-radius: 50%;
     width: 50%;
 }
-.habit-card-img{
+
+.habit-card-img {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.change-habit-card{
+
+.change-habit-card {
     width: 14.5rem;
     display: flex;
     flex-direction: column;
 
 }
 
-.change-habit-card h4{
+.change-habit-card h4 {
     font-size: 1.2rem;
     font-weight: 600;
     text-align: center;
     color: rgb(255, 255, 255);
     margin-top: 1.2rem;
 }
-.change-habit-card p{
+
+.change-habit-card p {
     font-size: 0.9rem;
     font-weight: 400;
     text-align: center;
     color: rgba(255, 255, 255, 0.5);
     margin-top: 0.5rem;
+}
+
+/* change your habit styles  ends here */
+
+
+
+/* runner section styles starts here */
+
+.runner-container {
+    width: 87%;
+    margin: 5rem auto;
+    background: rgb(34, 34, 34);
+    border-radius: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.runner-content {
+    width: 50%;
+    padding: 2rem;
+    
+}
+
+.runner-content h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: left;
+    color: rgb(255, 255, 255);
+}
+
+.runner-content p {
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0.9rem;
+}
+
+#btn-run {
+    width: 220px;
+    height: 50px;
+    border: none;
+    border-radius: 40px;
+    background: rgb(230, 83, 60);
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    margin-top: 2rem;
+}
+
+.runner-img {
+    width: 50%;
+    padding: 2rem;
+
+}
+
+.runner-img img {
+    width: 100%;
+    border-radius: 1rem;
 }
