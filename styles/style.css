@@ -8,7 +8,6 @@
     /* background-color: black; */
 }
 
-
 .inter-font {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -21,6 +20,7 @@
 
 .miama {
     font-family: 'Miama', sans-serif;
+    font-size: 7rem;
 }
 
 /* share styles here */
@@ -33,7 +33,6 @@
     font-size: 1.2rem;
     font-weight: 600;
     color: rgb(255, 255, 255);
-
 }
 
 .btn-secondary {
@@ -46,14 +45,9 @@
     font-size: 1.2rem;
     font-weight: 600;
     color: rgb(255, 255, 255);
-
 }
 
-
-
 /* navbar container section styles starts  here */
-
-
 .navbar-section {
     display: flex;
     justify-content: space-between;
@@ -96,9 +90,7 @@
 }
 
 /* navbar container section styles ends  here */
-
 /* banner section starts here */
-
 .banner-main-container {
     display: flex;
     justify-content: space-between;
@@ -205,13 +197,8 @@
     color: tomato;
 }
 
-
 /* banner section ends here */
-
-
-
 /* change-your-habits-container styles starts  here */
-
 .change-your-habits-container {
     /* background: black; */
     display: flex;
@@ -235,7 +222,6 @@
     text-align: center;
     color: rgba(255, 255, 255, 0.5);
 }
-
 
 .change-habit-cards {
     display: grid;
@@ -280,11 +266,7 @@
 }
 
 /* change your habit styles  ends here */
-
-
-
 /* runner section styles starts here */
-
 .runner-container {
     width: 87%;
     margin: 5rem auto;
@@ -294,7 +276,6 @@
     justify-content: center;
     align-items: center;
 }
-
 
 .runner-content {
     width: 50%;
@@ -332,7 +313,6 @@
 .runner-img {
     width: 50%;
     padding: 2rem;
-
 }
 
 .runner-img img {
@@ -341,11 +321,9 @@
 }
 
 /* runner section styles ends here */
-
-
 /* BMI section starts here */
 /* small-center-shared-section */
-.small-center-shared-section{
+.small-center-shared-section {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -354,14 +332,14 @@
     margin: 5rem auto;
 }
 
-.small-center-shared-section h2{
+.small-center-shared-section h2 {
     font-size: 3rem;
     font-weight: 900;
     text-align: left;
     color: rgb(255, 255, 255);
 }
 
-.small-center-shared-section p{
+.small-center-shared-section p {
     width: 35%;
     font-size: 0.9rem;
     font-weight: 400;
@@ -371,7 +349,6 @@
 }
 
 /* small-center-shared-section */
-
 /* BMI charts and calculator section styles starts here */
 .bmi-tripleC-main-container {
     background: rgba(48, 48, 48, 0.732);
@@ -384,7 +361,6 @@
 }
 
 .bmi-calculator-chart-content {
-    /* width: 50%; */
     width: 100%;
 }
 
@@ -393,7 +369,6 @@ table,
 th,
 td {
     padding: 1.1rem;
-
 }
 
 .bmi-calculator-chart-content h3 {
@@ -433,7 +408,6 @@ td {
 }
 
 .bmi-calculation-heading-part p {
-    /* width: 50%; */
     color: rgba(255, 255, 255, 0.5);
     font-size: 0.9rem;
     font-weight: 400;
@@ -443,7 +417,6 @@ td {
 }
 
 .bmi-calculator {
-    /* width: 50%; */
     width: 100%;
 }
 
@@ -472,7 +445,6 @@ select,
     font-weight: 400;
     background: rgba(255, 255, 255, 0.1);
     color: rgba(202, 193, 193, 0.667);
-
 }
 
 select,
@@ -491,11 +463,8 @@ select,
 }
 
 /* BMI charts and calculator section styles ends here */
-
-
 /* meet our team sections styles starts here */
-
-.meetup-team-title-section{
+.meetup-team-title-section {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -504,14 +473,14 @@ select,
     margin: 5rem auto;
 }
 
-.meetup-team-title-section h2{
+.meetup-team-title-section h2 {
     font-size: 3rem;
     font-weight: 900;
     text-align: left;
     color: rgb(255, 255, 255);
 }
 
-.meetup-team-title-section p{
+.meetup-team-title-section p {
     width: 50%;
     font-size: 0.9rem;
     font-weight: 400;
@@ -520,10 +489,11 @@ select,
     margin-top: 0.9rem;
 }
 
-.meetup-team-main-container{
+.meetup-team-main-container {
     padding: 6rem;
 }
-.meetup-contents{
+
+.meetup-contents {
     background: rgba(93, 91, 91, 0.553);
     border-radius: 0.8rem;
     display: grid;
@@ -532,27 +502,30 @@ select,
     padding: 2rem;
 }
 
-.team-member-img{
+.team-member-img {
     width: 100%;
     height: 100%;
     border-radius: 0.8rem;
 }
 
-.meetup-content{
+.meetup-content {
     position: relative;
 }
-.team-member-info{
+
+.team-member-info {
     position: absolute;
     bottom: 3rem;
     left: 2rem;
 }
-.team-member-info h2{
+
+.team-member-info h2 {
     font-size: 1.5rem;
     font-weight: 600;
     text-align: center;
     color: rgb(255, 255, 255);
 }
-.team-member-info p{
+
+.team-member-info p {
     font-size: 1rem;
     font-weight: 400;
     text-align: left;
@@ -561,9 +534,8 @@ select,
 }
 
 /* Meet our team section ends here */
-
 /* analysis section styles starts here */
-.analysis-main-container{
+.analysis-main-container {
     width: 87%;
     background: rgba(93, 91, 91, 0.553);
     border-radius: 0.8rem;
@@ -571,35 +543,40 @@ select,
     grid-template-columns: repeat(3, 1fr);
     gap: 1.8rem;
     padding: 5rem;
-   margin: 0.1rem auto;
+    margin: 1rem auto;
 }
 
-.analysis-card{
-    background-color: #f2f2f244; /* Replace with your desired gray */
+.analysis-card {
+    background-color: #f2f2f244;
+    /* Replace with your desired gray */
     border-radius: 0.8rem;
     padding: 1.5rem;
     box-shadow: 0 2px 5px rgba(31, 31, 31, 0.1);
+    z-index: -1;
 }
-#analysis-second-card{
-margin-top: 1.5rem;
-margin-bottom: -3rem;
-z-index: -1;
 
+#analysis-second-card {
+    margin-top: -3rem;
+    margin-bottom: 1.5rem;
+    z-index: 0;
 }
-.analysis-images{
+
+.analysis-images {
     width: 100%;
     height: 50%;
     border-radius: 1rem;
     opacity: calc(90%);
 }
-.analysis-card h4{
+
+.analysis-card h4 {
     font-size: 1.8rem;
     font-weight: 600;
     text-align: center;
     color: rgb(247, 242, 242);
     margin-top: 0.5rem;
 }
-.analysis-card p{
+
+.analysis-card p {
     font-size: 1rem;
     font-weight: 400;
     text-align: center;
@@ -608,25 +585,27 @@ z-index: -1;
 }
 
 /* analysis section styles ends here */
-
 /* Footer section starts here  */
-footer{
+footer {
     background: rgba(51, 50, 50, 0.27);
 }
-.main-container{
+
+.main-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 6rem;
-    
+
 }
-.logo{
+
+.logo {
     color: rgb(234, 67, 41);
     font-size: 2.1rem;
     font-weight: 800;
     font-style: italic;
 }
-.logo-description p{
+
+.logo-description p {
     width: 50%;
     font-size: 0.9rem;
     font-weight: 400;
@@ -635,27 +614,31 @@ footer{
     margin-top: 0.9rem;
 }
 
-.footer-content2{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-    
+.footer-content2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
 }
-.get-start-contents{
+
+.get-start-contents {
     font-size: 1.2rem;
     color: rgba(255, 255, 255, 0.5);
     font-weight: 600;
     text-align: left;
 }
-.get-start-contents p{
+
+.get-start-contents p {
     margin-top: 0.8rem;
 }
-hr{
+
+hr {
     width: 88%;
     margin: 0 auto;
 }
-.copyright{
+
+.copyright {
     width: 100%;
     text-align: center;
     color: rgba(255, 255, 255, 0.5);

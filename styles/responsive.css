@@ -63,16 +63,16 @@
     }
 
     .free-workout-videos {
-        width: 6.25rem;
-        height: 4rem;
+        width: 8.25rem;
+        height: 5rem;
         border: 2px solid rgba(255, 255, 255, 0.1);
         border-radius: 10px;
         backdrop-filter: blur(20px);
         background: rgba(255, 255, 255, 0.1);
         padding: 5px;
         position: absolute;
-        top: 63rem;
-        right: 2.2rem;
+        top: 64rem;
+        right: 1.2rem;
     }
 
     .free-workout-videos h1 {
@@ -100,7 +100,7 @@
         padding: 4px;
         gap: 0.5rem;
         position: absolute;
-        top: 72rem;
+        top: 78rem;
         right: 9rem;
     }
 
@@ -181,7 +181,7 @@
     .bmi-bonding-div {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        padding: 1rem;
+        padding: 0rem;
     }
 
     .bmi-calculator-chart-content,
@@ -191,10 +191,13 @@
         padding: 0.6;
         font-size: 1.5rem;
     }
+    .bmi-calculation-heading-part{
+        padding: 1rem;
+    }
 
     .bmi-calculation-heading-part h3,
     p {
-        padding: 0.8rem;
+        padding: 0.1rem;
     }
 
     /* bmi responsive section ends here */
@@ -224,7 +227,7 @@
 
     .team-member-info {
         position: absolute;
-        bottom: 2rem;
+        bottom: 0rem;
         left: 1rem;
     }
 
@@ -259,14 +262,21 @@
         grid-template-columns: repeat(1, 1fr);
         gap: 1.8rem;
         padding: 1rem;
-        margin: 0 auto;
+        margin: 1rem auto;
     }
 
     #analysis-second-card {
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-        z-index: 0;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+    }
 
+    .analysis-card {
+        background-color: #f2f2f244;
+        /* Replace with your desired gray */
+        border-radius: 0.8rem;
+        padding: 1.5rem;
+        box-shadow: 0 2px 5px rgba(31, 31, 31, 0.1);
+        z-index: 0;
     }
 
     /* analysis section responsive ends here */
@@ -368,8 +378,8 @@
         padding: 4px;
         gap: 0.5rem;
         position: absolute;
-        top: 85rem;
-        right: 28rem;
+        top: 94rem;
+        right: 32rem;
     }
 
     /* banner section ends here */
@@ -489,14 +499,22 @@
         grid-template-columns: repeat(1, 1fr);
         gap: 1.8rem;
         padding: 5rem;
-        margin: 0.1rem auto;
+        margin: 1rem auto;
+    }
+
+
+    .analysis-card {
+        background-color: #f2f2f244;
+        /* Replace with your desired gray */
+        border-radius: 0.8rem;
+        padding: 1.5rem;
+        box-shadow: 0 2px 5px rgba(31, 31, 31, 0.1);
+        z-index: 1;
     }
 
     #analysis-second-card {
         margin-top: 0rem;
         margin-bottom: 0rem;
-        z-index: 1;
-
     }
 
     /* analysis section ends here */
@@ -520,15 +538,7 @@
         margin-top: 0.9rem;
     }
 
-    /* .footer-content2 {
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
-        align-items: start;
-        width: 100%;
-        margin-top: 2rem;
-        row-gap: 1rem;
-    } */
+
     .footer-content2 {
         display: flex;
         justify-content: space-between;
