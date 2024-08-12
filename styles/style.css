@@ -19,8 +19,11 @@
 }
 
 .miama {
+    /* font-family: 'Miama', sans-serif;
+    font-size: 7rem; */
     font-family: 'Miama', sans-serif;
-    font-size: 7rem;
+    font-weight: 400;
+    font-size: 10rem;
 }
 
 /* share styles here */
@@ -313,11 +316,14 @@
 .runner-img {
     width: 50%;
     padding: 2rem;
+    
 }
 
 .runner-img img {
     width: 100%;
     border-radius: 1rem;
+    object-fit: none;
+    object-position: 65% 30%;
 }
 
 /* runner section styles ends here */
@@ -636,6 +642,7 @@ footer {
 hr {
     width: 88%;
     margin: 0 auto;
+    opacity: 0.1;
 }
 
 .copyright {
