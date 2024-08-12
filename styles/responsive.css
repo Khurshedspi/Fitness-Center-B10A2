@@ -149,6 +149,10 @@
 
     .runner-img {
         width: 100%;
+        
+    }
+    .runner-img img{
+        object-fit: cover;
     }
 
     /* runner section responsive ends here */
@@ -191,7 +195,8 @@
         padding: 0.6;
         font-size: 1.5rem;
     }
-    .bmi-calculation-heading-part{
+
+    .bmi-calculation-heading-part {
         padding: 1rem;
     }
 
